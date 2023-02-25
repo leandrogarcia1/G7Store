@@ -1,0 +1,25 @@
+
+#FotoLogo{
+
+height: 30%;
+width: 30%;
+}
+
+.enlaceNavColor{
+    color: #0247b2 ;
+}
+
+footer{
+    background-color: #0247b2;
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    
+}
+
+.links{
+    text-decoration: none; 
+    color: white;
+}
+
+
