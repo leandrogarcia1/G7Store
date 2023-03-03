@@ -1,8 +1,23 @@
 
-#FotoLogo{
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+  }
+  /* COMIENZO CSS NAV */
 
-height: 30%;
-width: 30%;
+.FotoLogo{
+
+height: 50%;
+width: 50%;
+}
+
+@media (min-width:769px){
+    .FotoLogo{
+        height: 25%;
+        width: 25%;
+    }
+    
 }
 
 .enlaceNavColor{
@@ -14,12 +29,205 @@ footer{
     color: white;
     text-decoration: none;
     text-align: center;
+    background-image: url(/wave\ \(1\).svg);
+    width: 100%;
+    background-size: cover;
+    height: 400px;
+    
     
 }
-
+.container{
+    margin-top: 100px;
+}
 .links{
     text-decoration: none; 
     color: white;
 }
 
+.FotoLogoFooter{
+    height: 50px;
+    width: 100px;
+    border-radius: 120px;
+}
+.box{
+    margin-top: 15px;
+}
 
+@media (min-width:769px){
+    
+    .box{
+        margin-top: 50px;
+    }
+}
+
+/* FIN CSS NAV */
+
+/* estilos carousel */
+
+/* estilos carousel */
+
+/* COMIENZO CSS HOME */
+#seccion-productos {
+    /* border: 1px solid rgb(0, 139, 7); */
+    display: flex;
+    justify-content: center;
+  }
+  #seccion-productos2 {
+    /* border: 1px solid rgb(139, 0, 76); */
+    display: flex;
+    justify-content: center;
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+  }
+  aside {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+  }
+  aside img {
+    width: 100%;
+    height: 100%;
+  }
+  #seccion-productos3 {
+    /* border: 1px solid rgb(12, 240, 209); */
+    display: flex;
+    justify-content: center;
+  }
+  .lo-mas-nuevo {
+    margin-top: 0.5rem;
+    text-align: center;
+    font-family: Helvetica, sans-serif;
+  }
+  .card {
+    margin-top: 1rem;
+  }
+  .card:hover {
+    transition-duration: 0.5s;
+    box-shadow: 2px 1px 15px -1px;
+  }
+  .card-body {
+    text-align: center;
+  }
+  
+  .oferta {
+    padding: 0%;
+    margin: 0%;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    /* border: 1px saddlebrown solid; */
+  }
+  .precio-s23-viejo {
+    color: gray;
+    padding: 0%;
+    margin: 0%;
+    /* border: 1px seagreen solid; */
+    display: flex;
+    align-items: center;
+  }
+  .porcentaje-descuento {
+    color: white;
+    padding: 3px;
+    margin: 0%;
+    background-color: rgba(17, 0, 255, 0.63);
+    display: flex;
+    align-items: center;
+    border-radius: 5%;
+    margin-left: 0.5rem;
+  }
+  .precio-envio {
+    width: 100%;
+    /* border: 1px solid rgb(0, 255, 42); */
+    margin-bottom: 0.5rem;
+    display: flex;
+    flex-direction: column;
+  }
+  .descuento {
+    padding: 0%;
+    margin: 0%;
+    font-size: 1.2rem;
+    /* border: 1px solid fuchsia; */
+    text-align: center;
+  }
+  .precio-envio strong {
+    color: green;
+    /* border: 1px solid black; */
+    text-align: center;
+  }
+  #seccion-4 {
+    /* border: 1px solid saddlebrown; */
+    text-align: center;
+    margin-top: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .tienda h5 {
+    padding: 0;
+    margin: 0;
+  }
+  .tecnologia-inteligente {
+    padding: 0;
+    margin: 0;
+  }
+  .subs-boletin {
+    /* border: 1px solid black; */
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  #enviar-email {
+    /* border: 1px solid darkorange; */
+    width: 100% !important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  #enviar-boletin {
+    height: 100%;
+  }
+  /* FIN CSS HOME */
+  
+  /* COMIENZO CSS FOOTER */
+  footer {
+    background-color: #0247b2;
+    color: white;
+    text-decoration: none;
+    text-align: center;
+  }
+  
+  .links {
+    text-decoration: none;
+    color: white;
+  }
+  /* FIN CSS FOOTER */
+  
+  @media (min-width: 1024px) {
+    .zflip {
+      font-size: 18px;
+    }
+  }
+
+
+ 
+  
+  /*COMIENZO CSS CONTACTO */
+  
+  .formulario{
+    background-color: #0247b2;
+    color: white;
+    padding: 20px;
+    margin: 20px;
+    border-color: black;
+    border-radius: 20px;
+    
+    text-align: center;
+  }
+ 
+  
+
+  .infoContacto{
+    text-align: center;
+  }
