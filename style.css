@@ -4,6 +4,8 @@
     padding: 0%;
     box-sizing: border-box;
   }
+
+ 
   /* COMIENZO CSS NAV */
 
 .FotoLogo{
@@ -36,7 +38,7 @@ footer{
     
     
 }
-.container{
+.container2{
     margin-top: 100px;
 }
 .links{
@@ -60,6 +62,65 @@ footer{
     }
 }
 
+.icono{
+  text-decoration: none;
+  color: black;
+}
+
+/*Inicio para Estilos para login*/
+.imgModal{
+  max-width: 15rem;
+  
+ 
+}
+.form-login {
+  background-color: rgb(250, 250, 250);
+}
+
+.input-login {
+  border: 1px solid black;
+  max-width: 10rem;
+  border-radius: .3rem;
+}
+
+.link-login {
+  font-size: .9rem;
+  text-decoration: none;
+}
+
+.btn-acceder {
+  margin-top: 1rem ;
+  margin-left: 3rem;
+  margin-bottom: .7rem;
+}
+
+.login-acceder {
+  color: white;
+  text-decoration: none;
+}
+
+.btn-acceder_facebook {
+  background-color: rgba(0, 71, 250, 0.763);
+  color: white;
+  border-radius: 15px;
+  border: none;
+  width: 10rem;
+  height: 2rem;
+  font-size: 10px;
+  margin: .3rem;
+  margin-left: 1rem;
+}
+
+.btn-acceder_google {
+  border-radius: 15px;
+  border: 1px solid grey;
+  width: 10rem;
+  height: 2rem;
+  font-size: 10px;
+  margin: .5rem;
+  margin-left: 1rem;
+}
+/*Fin para estilos de login*/
 /* FIN CSS NAV */
 
 /* estilos carousel */
@@ -282,4 +343,45 @@ aside img {
     font-size: 3rem;
   }
   
+  /*COMIENZO CSS Quines somos*/
+
+   /*FIN CSS Quines somos*/
+   input{
+    border: 1px solid black !important;
+  }
+  #validationCustom02.form-control.telefono{
+    -webkit-appearance: textfield !important;
+    margin: 0;
+    -moz-appearance: textfield !important;
+}
+
+.estilo-formulario{
   
+}
+  
+/*COMIENZO CSS Registro*/ 
+
+/*FIN CSS Registro*/
+
+   
+
+/*COMIENZO CSS Carrito*/
+
+
+   .tarjeta{
+    display: flex;
+    justify-content: right;
+}
+.color_envio{
+    color: forestgreen;
+    font-size: 1.5rem;
+}
+
+.basurero{
+  color: red;
+  font-size: 2rem;
+  
+}
+
+
+   /*FIN CSS Carrito*/

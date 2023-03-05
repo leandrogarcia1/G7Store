@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>G7 Store</title>
+    <title>Home-G7 Store</title>
 
      <!-- link bootstrap -->
      <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
@@ -19,9 +19,45 @@
     <nav>
         <nav class="navbar navbar-expand-lg navbar-light bg-light">
             <div class="container-fluid">
-                <img src="logo2-grupo7.jpeg" alt="G7 STORE" class="FotoLogo">
-                <a href=""><i class="fa-solid fa-user d-sm-blockd-noned d-sm-block d-md-block d-lg-none p-2 "></i></a>
-                    <a href=""><i class="fa-solid fa-cart-shopping  d-noned d-sm-block d-md-block d-lg-none p-2"></i></a>
+                <img src="../image/logo2-grupo7.jpeg" alt="G7 STORE" class="FotoLogo">
+                <!-- Button trigger modal -->
+                <button type="button" class="btn " data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+                  <i class="fa-solid fa-user d-sm-blockd-noned d-sm-block d-md-block d-lg-none p-2 "></i>
+                </button>
+
+                <!-- Modal -->
+                <div class="modal fade ventana-modal" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                  <div class="modal-dialog">
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <h1 class="modal-title fs-3 " id="staticBackdropLabel" >Inicia Sesion</h1>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                      </div>
+                      <div class="modal-body">
+                        <div class="row">
+                          <div class="col-2 col-sm-3"></div>
+                          <div class="col-8 col-sm-7">
+                            <img  class="imgModal" src="../image/logo2-grupo7.jpeg" alt="logo de la pagina">
+                          <form action="submit">
+                            <input type="text" placeholder="Ingresar correo" class="m-2 input-login">
+                            <input type="password" placeholder="Ingresar clave" class="m-2 input-login"><br>
+                            <a href="#" class="link-login m-1" >Registrar</a>
+                            <a href="#" class="link-login m-1" > Recuperar Clave</a> <br>
+                            <button class="btn btn-primary btn-acceder submit">Acceder</button><br>
+                            <button class="btn-acceder_facebook"> Continuar con Facebook</button>
+                            <button class="btn-acceder_google"> Continnuar con Google</button>
+                          </form>
+                          </div>
+                          <div class="col-2 col-sm-2"></div>
+                        </div>
+                    
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                
+               
+                    <a href="/paginas/registro.html"><i class="fa-solid fa-cart-shopping  d-noned d-sm-block d-md-block d-lg-none p-2 icono"></i></a>
                     
 
               <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -42,8 +78,44 @@
                   
                   
                 </ul>
-                <a href=""><i class="fa-solid fa-user d-none d-lg-block p-2"></i></a>
-                <a href=""><i class="fa-solid fa-cart-shopping d-none d-lg-block p-2"></i></a>
+                
+                <!-- Button trigger modal -->
+                    <button type="button" class="btn " data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+                      <i class="fa-solid fa-user d-none d-lg-block p-2"></i>
+                    </button>
+
+                    <!-- Modal -->
+                    <div class="modal fade ventana-modal" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                      <div class="modal-dialog">
+                        <div class="modal-content">
+                          <div class="modal-header">
+                            <h1 class="modal-title fs-3 " id="staticBackdropLabel" >Inicia Sesion</h1>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                          </div>
+                          <div class="modal-body">
+                            <div class="row">
+                              <div class="col-2 col-sm-3"></div>
+                              <div class="col-8 col-sm-7">
+                                <img class="imgModal" src="../image/logo2-grupo7.jpeg" alt="logo de la pagina">
+                              <form action="submit">
+                                <input type="text" placeholder="Ingresar correo" class="m-2 input-login">
+                                <input type="password" placeholder="Ingresar clave" class="m-2 input-login"><br>
+                                <a href="/paginas/registro.html" class="link-login m-1" >Registrar</a>
+                                <a href="#" class="link-login m-1" > Recuperar Clave</a> <br>
+                                <button class="btn btn-primary btn-acceder submit">Acceder</button><br>
+                                <button class="btn-acceder_facebook"> Continuar con Facebook</button>
+                                <button class="btn-acceder_google"> Continnuar con Google</button>
+                              </form>
+                              </div>
+                              <div class="col-2 col-sm-2"></div>
+                            </div>
+                        
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+
+                <a href="/paginas/registro.html"><i class="fa-solid fa-cart-shopping d-none d-lg-block p-2 icono"></i></a>
                         
                     
                 <form class="d-flex" role="search">
@@ -52,8 +124,8 @@
                 </form>
               </div>
             </div>
-          </nav>
-    </nav>
+          
+        </nav>
     <!-- Fin de Nav -->
   </header>
   <main>
@@ -103,7 +175,7 @@
                                         <p class="card-text descuento">$459.999</p>
                                         <strong>Envio Gratis</strong>
                                     </div>
-                                    <a href="#" class="btn btn-primary">Ver Mas</a>
+                                    <a href="/paginas/s23ultra.html" class="btn btn-primary">Ver Mas</a>
                                 </div>
                             </div>
                         </div>
@@ -120,7 +192,7 @@
                                         <p class="card-text descuento">$106.250</p>
                                         <strong>Envio Gratis</strong>
                                     </div>
-                                    <a href="#" class="btn btn-primary">Ver Mas</a>
+                                    <a href="/paginas/edge30ultra.html" class="btn btn-primary">Ver Mas</a>
                                 </div>
                             </div>
                         </div>
@@ -173,7 +245,7 @@
                                         <p class="card-text descuento">$126.000</p>
                                         <strong>Envio Gratis</strong>
                                     </div>
-                                    <a href="#" class="btn btn-primary">Ver Mas</a>
+                                    <a href="/paginas/e40.html" class="btn btn-primary">Ver Mas</a>
                                 </div>
                             </div>
                         </div>
@@ -190,7 +262,7 @@
                                         <p class="card-text descuento">$268.600</p>
                                         <strong>Envio Gratis</strong>
                                     </div>
-                                    <a href="#" class="btn btn-primary">Ver Mas</a>
+                                    <a href="/paginas/zflip4.html" class="btn btn-primary">Ver Mas</a>
                                 </div>
                             </div>
                         </div>
@@ -255,7 +327,7 @@
                                         <p class="card-text descuento">$161.000</p>
                                         <strong>Envio Gratis</strong>
                                     </div>
-                                    <a href="#" class="btn btn-primary">Ver Mas</a>
+                                    <a href="/paginas/a53.html" class="btn btn-primary">Ver Mas</a>
                                 </div>
                             </div>
                         </div>
@@ -272,7 +344,7 @@
                                         <p class="card-text descuento">$108.000</p>
                                         <strong>Envio Gratis</strong>
                                     </div>
-                                    <a href="#" class="btn btn-primary">Ver Mas</a>
+                                    <a href="/paginas/redmi9c.html" class="btn btn-primary">Ver Mas</a>
                                 </div>
                             </div>
                         </div>
@@ -293,23 +365,7 @@
                                 </div>
                             </div>
                         </div>
-                        <!-- <div class="col">
-                            <div class="card">
-                                <img src="./image/MOTO-G-52.png" class="card-img-top" alt="Moto G-52">
-                                <div class="card-body">
-                                    <h5 class="card-title">Motorola G-52</h5>
-                                    <div class="oferta">
-                                        <p class="precio-s23-viejo">$90.000</p>
-                                        <p class="porcentaje-descuento">15% OFF</p>
-                                    </div>
-                                    <div class="precio-envio">
-                                        <p class="card-text descuento">$76.500</p>
-                                        <strong>Envio Gratis</strong>
-                                    </div>
-                                    <a href="#" class="btn btn-primary">Ver Mas</a>
-                                </div>
-                            </div>
-                        </div> -->
+                        
                         <aside>
                             <div class="col d-none d-lg-block">
                                 <img src="./image/aside-2.png" alt="Promocion-Dos">
@@ -337,7 +393,7 @@
                     <form class="d-flex" role="search" id="enviar-email">
                         <input class="form-control me-2" type="email" placeholder="Inserte su Email"
                             aria-label="Search">
-                        <button class="btn btn-outline-primary" id="enviar-boletin" type="submit">Enviar</button>
+                        <button class="btn btn-outline-primary" id="enviar-boletin" type="submit"> <a class="error404" href="404.html">  Enviar</a> </button>
                     </form>
                 </div>
             </div>
@@ -379,4 +435,4 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
 
 </body>
-</html>
+</html> 

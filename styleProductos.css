@@ -1,0 +1,229 @@
+body {
+    background-color: #ffffff;
+    color: #000000;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+
+   /* COMIENZO CSS NAV */
+
+.FotoLogo{
+
+  height: 50%;
+  width: 50%;
+  }
+  
+  @media (min-width:769px){
+      .FotoLogo{
+          height: 25%;
+          width: 25%;
+      }
+      
+  }
+  
+  .enlaceNavColor{
+      color: #0247b2 ;
+  }
+  
+  footer{
+      background-color: #0247b2;
+      color: white;
+      text-decoration: none;
+      text-align: center;
+      background-image: url(/wave\ \(1\).svg);
+      width: 100%;
+      background-size: cover;
+      height: 400px;
+      
+      
+  }
+  .container2{
+      margin-top: 100px;
+  }
+  .links{
+      text-decoration: none; 
+      color: white;
+  }
+  
+  .FotoLogoFooter{
+      height: 50px;
+      width: 100px;
+      border-radius: 120px;
+  }
+  .box{
+      margin-top: 15px;
+  }
+  
+  @media (min-width:769px){
+      
+      .box{
+          margin-top: 50px;
+      }
+  }
+  
+  .icono{
+    text-decoration: none;
+    color: black;
+  }
+  
+  /*Inicio para Estilos para login*/
+  .imgModal{
+    max-width: 15rem;
+    
+   
+  }
+  .form-login {
+    background-color: rgb(250, 250, 250);
+  }
+  
+  .input-login {
+    border: 1px solid black;
+    max-width: 10rem;
+    border-radius: .3rem;
+  }
+  
+  .link-login {
+    font-size: .9rem;
+    text-decoration: none;
+  }
+  
+  .btn-acceder {
+    margin-top: 1rem ;
+    margin-left: 3rem;
+    margin-bottom: .7rem;
+  }
+  
+  .login-acceder {
+    color: white;
+    text-decoration: none;
+  }
+  
+  .btn-acceder_facebook {
+    background-color: rgba(0, 71, 250, 0.763);
+    color: white;
+    border-radius: 15px;
+    border: none;
+    width: 10rem;
+    height: 2rem;
+    font-size: 10px;
+    margin: .3rem;
+    margin-left: 1rem;
+  }
+  
+  .btn-acceder_google {
+    border-radius: 15px;
+    border: 1px solid grey;
+    width: 10rem;
+    height: 2rem;
+    font-size: 10px;
+    margin: .5rem;
+    margin-left: 1rem;
+  }
+  /*Fin para estilos de login*/
+  /* FIN CSS NAV */
+  /* Estilos para los titulos */
+
+  h1 {
+    font-size: 2rem;
+  }
+  
+  /* Estilos para seccion de producto y compra*/
+
+  .slider {
+    max-width: 59rem;
+  }
+
+  .carousel-control-next {
+    filter: invert(100%);
+  }
+
+  .carousel-control-prev {
+    filter: invert(100%);
+  }
+
+
+  .info-compra p {
+    font-size: 1.65rem;
+    color: rgb(0, 0, 0);
+  }
+
+  .precio-tachado {
+    display: block;
+    font-size: .9rem;
+    color: #00000097;
+  }
+
+  .descuento {
+    font-size: .8rem;
+    color: green;
+  }
+
+  .cuotas {
+    font-size: 1.2rem;
+  }
+
+  /* Estilos para boton de compra */
+
+  .comprar {
+    background-color: #0322ea;
+    border: none;
+    border-radius: 4px;
+    color: #FFF;
+    cursor: pointer;
+    display: block;
+    font-size: 1rem;
+    font-weight: bold;
+    margin: 2rem auto;
+    margin-bottom: 0;
+    padding: 0.8rem 5rem;
+    transition: background-color 0.3s;
+  }
+
+  .comprar:hover {
+    background-color: #FF6B6B;
+  }
+
+  /* estilos para envio gratis, garantia y transaccion */
+
+  .plugins {
+    margin-top: 1rem;
+  }
+
+   /* Estilos para caracteristicas del producto */
+
+   ul {
+    font-size: .9rem;
+    line-height: 1.5;
+    list-style: none;
+    margin: 0rem 0;
+    padding: 0;
+  }
+
+  li {
+    padding: .2rem;
+  }
+
+  /* Estilos para comentarios */
+
+  .comentarios {
+    max-width: 50rem;
+    
+  }
+  
+  /* Estilos para el footer */
+  
+  footer{
+    background-color: #0247b2;
+    color: white;
+    text-decoration: none;
+    text-align: center;
+}
+
+  /* Estilos para los links */
+
+.links{
+    text-decoration: none; 
+    color: white;
+}
+

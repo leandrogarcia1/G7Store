@@ -17,49 +17,120 @@
 </head>
 <body>
     <header>
-        <nav>
-            <nav class="navbar navbar-expand-lg navbar-light bg-light">
-                <div class="container-fluid">
-                    <img src="../logo2-grupo7.jpeg" alt="G7 STORE" class="FotoLogo">
-                    <a href=""><i class="fa-solid fa-user d-sm-blockd-noned d-sm-block d-md-block d-lg-none p-2 "></i></a>
-                        <a href=""><i class="fa-solid fa-cart-shopping  d-noned d-sm-block d-md-block d-lg-none p-2"></i></a>
-                        
-    
-                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                  </button>
-                  <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                      <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="../index.html">Inicio</a>
-                      </li>
-                      <li class="nav-item">
-                        <a class="nav-link" href="nosotros.html">¿Quienes somos?</a>
-                      </li>
-                      <li class="nav-item">
-                        <a class="nav-link" href="contacto.html">Contacto</a>
-                      </li>
-                      
-                      
-                      
-                    </ul>
-                    <a href=""><i class="fa-solid fa-user d-none d-lg-block p-2"></i></a>
-                    <a href=""><i class="fa-solid fa-cart-shopping d-none d-lg-block p-2"></i></a>
-                            
-                        
-                    <form class="d-flex" role="search">
-                      <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Buscar">
-                      <button type="button" class="btn btn-primary">Buscar</button>
-                    </form>
+      <nav>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="container-fluid">
+                <img src="../image/logo2-grupo7.jpeg" alt="G7 STORE" class="FotoLogo">
+                <!-- Button trigger modal -->
+                <button type="button" class="btn " data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+                  <i class="fa-solid fa-user d-sm-blockd-noned d-sm-block d-md-block d-lg-none p-2 "></i>
+                </button>
+
+                <!-- Modal -->
+                <div class="modal fade ventana-modal" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                  <div class="modal-dialog">
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <h1 class="modal-title fs-3 " id="staticBackdropLabel" >Inicia Sesion</h1>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                      </div>
+                      <div class="modal-body">
+                        <div class="row">
+                          <div class="col-2 col-sm-3"></div>
+                          <div class="col-8 col-sm-7">
+                            <img  class="imgModal" src="../image/logo2-grupo7.jpeg" alt="logo de la pagina">
+                          <form action="submit">
+                            <input type="text" placeholder="Ingresar correo" class="m-2 input-login">
+                            <input type="password" placeholder="Ingresar clave" class="m-2 input-login"><br>
+                            <a href="#" class="link-login m-1" >Registrar</a>
+                            <a href="#" class="link-login m-1" > Recuperar Clave</a> <br>
+                            <button class="btn btn-primary btn-acceder submit">Acceder</button><br>
+                            <button class="btn-acceder_facebook"> Continuar con Facebook</button>
+                            <button class="btn-acceder_google"> Continnuar con Google</button>
+                          </form>
+                          </div>
+                          <div class="col-2 col-sm-2"></div>
+                        </div>
+                    
+                      </div>
+                    </div>
                   </div>
                 </div>
-              </nav>
+                
+                    <a href="carrito.html"><i class="fa-solid fa-cart-shopping  d-noned d-sm-block d-md-block d-lg-none p-2 icono"></i></a>
+                    
+
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="../index.html">Inicio</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="nosotros.html">¿Quienes somos?</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="contacto.html">Contacto</a>
+                  </li>
+                  
+                  
+                  
+                </ul>
+                
+                <!-- Button trigger modal -->
+                    <button type="button" class="btn " data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+                      <i class="fa-solid fa-user d-none d-lg-block p-2"></i>
+                    </button>
+
+                    <!-- Modal -->
+                    <div class="modal fade ventana-modal" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                      <div class="modal-dialog">
+                        <div class="modal-content">
+                          <div class="modal-header">
+                            <h1 class="modal-title fs-3 " id="staticBackdropLabel" >Inicia Sesion</h1>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                          </div>
+                          <div class="modal-body">
+                            <div class="row">
+                              <div class="col-2 col-sm-3"></div>
+                              <div class="col-8 col-sm-7">
+                                <img class="imgModal" src="../image/logo2-grupo7.jpeg" alt="logo de la pagina">
+                              <form action="submit">
+                                <input type="text" placeholder="Ingresar correo" class="m-2 input-login">
+                                <input type="password" placeholder="Ingresar clave" class="m-2 input-login"><br>
+                                <a href="registro.html" class="link-login m-1" >Registrar</a>
+                                <a href="" class="link-login m-1" > Recuperar Clave</a> <br>
+                                <button class="btn btn-primary btn-acceder submit">Acceder</button><br>
+                                <button class="btn-acceder_facebook"> Continuar con Facebook</button>
+                                <button class="btn-acceder_google"> Continnuar con Google</button>
+                              </form>
+                              </div>
+                              <div class="col-2 col-sm-2"></div>
+                            </div>
+                        
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+
+                <a href="carrito.html"><i class="fa-solid fa-cart-shopping d-none d-lg-block p-2 icono"></i></a>
+                        
+                    
+                <form class="d-flex" role="search">
+                  <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Buscar">
+                  <button type="button" class="btn btn-primary">Buscar</button>
+                </form>
+              </div>
+            </div>
+          
         </nav>
         <!-- Fin de Nav -->
     </header>
     <main>
 
-      <div class="container m-5 p-2">
+      <div class="container2 m-5 p-2">
         <div class="row">
         <div class="col-12 ">
           <h1>Nuestra Mision</h1>
@@ -79,11 +150,13 @@
 
       </div>
 
-      <div class="container">
+      <h2 class="m-5 p-2">Nuestro Equipo</h2>
+      
+      <div class="container p-2 ">
         <div class="row">
           <div class="col"> 
             <div class="card" style="width: 18rem;">
-              <img src="..." class="card-img-top" alt="...">
+              <img src="/image/Agustin.jpg" class="card-img-top" alt="">
               <div class="card-body">
                 <p class="card-text">Un texto de ejemplo rápido para colocal cerca del título de la tarjeta y componer la mayor parte del contenido de la tarjeta.</p>
               </div>
@@ -92,7 +165,7 @@
 
           <div class="col"> 
             <div class="card" style="width: 18rem;">
-              <img src="..." class="card-img-top" alt="...">
+              <img src="/image/Andres.jpg" class="card-img-top" alt="...">
               <div class="card-body">
                 <p class="card-text">Un texto de ejemplo rápido para colocal cerca del título de la tarjeta y componer la mayor parte del contenido de la tarjeta.</p>
               </div>
@@ -101,7 +174,7 @@
 
           <div class="col"> 
             <div class="card" style="width: 18rem;">
-              <img src="..." class="card-img-top" alt="...">
+              <img src="/image/esteban.jpg" class="card-img-top" alt="...">
               <div class="card-body">
                 <p class="card-text">Un texto de ejemplo rápido para colocal cerca del título de la tarjeta y componer la mayor parte del contenido de la tarjeta.</p>
               </div>
@@ -110,7 +183,7 @@
 
           <div class="col"> 
             <div class="card" style="width: 18rem;">
-              <img src="..." class="card-img-top" alt="...">
+              <img src="/image/Lautaro.jpeg" class="card-img-top" alt="...">
               <div class="card-body">
                 <p class="card-text">Un texto de ejemplo rápido para colocal cerca del título de la tarjeta y componer la mayor parte del contenido de la tarjeta.</p>
               </div>
@@ -119,7 +192,7 @@
 
           <div class="col"> 
             <div class="card" style="width: 18rem;">
-              <img src="..." class="card-img-top" alt="...">
+              <img src="/image/Leandro.jpeg" class="card-img-top" alt="...">
               <div class="card-body">
                 <p class="card-text">Un texto de ejemplo rápido para colocal cerca del título de la tarjeta y componer la mayor parte del contenido de la tarjeta.</p>
               </div>
@@ -128,7 +201,7 @@
 
           <div class="col"> 
             <div class="card" style="width: 18rem;">
-              <img src="..." class="card-img-top" alt="...">
+              <img src="/image/Yonathan.jpeg" class="card-img-top" alt="...">
               <div class="card-body">
                 <p class="card-text">Un texto de ejemplo rápido para colocal cerca del título de la tarjeta y componer la mayor parte del contenido de la tarjeta.</p>
               </div>
@@ -137,32 +210,25 @@
 
           <div class="col"> 
             <div class="card" style="width: 18rem;">
-              <img src="..." class="card-img-top" alt="...">
+              <img src="/image/image.jpg" class="card-img-top" alt="...">
               <div class="card-body">
                 <p class="card-text">Un texto de ejemplo rápido para colocal cerca del título de la tarjeta y componer la mayor parte del contenido de la tarjeta.</p>
               </div>
             </div>
           </div>
 
-          <div class="col"> 
-            <div class="card" style="width: 18rem;">
-              <img src="..." class="card-img-top" alt="...">
-              <div class="card-body">
-                <p class="card-text">Un texto de ejemplo rápido para colocal cerca del título de la tarjeta y componer la mayor parte del contenido de la tarjeta.</p>
-              </div>
-            </div>
-          </div>
-
+          
 
 
 
 
         </div>
-
-
-
-
       </div>
+
+
+
+
+      
 
 
 
