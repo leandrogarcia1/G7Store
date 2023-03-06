@@ -8,12 +8,13 @@
  
   /* COMIENZO CSS NAV */
 
-.FotoLogo{
 
-height: 50%;
-width: 50%;
-}
 
+.FotoLogo2{
+
+  height: 50%;
+  width: 50%;
+  }
 @media (min-width:769px){
     .FotoLogo{
         height: 25%;
@@ -46,6 +47,10 @@ footer{
     color: white;
 }
 
+.links2{
+  text-decoration: none; 
+  color: black;
+}
 .FotoLogoFooter{
     height: 50px;
     width: 100px;
@@ -355,9 +360,7 @@ aside img {
     -moz-appearance: textfield !important;
 }
 
-.estilo-formulario{
-  
-}
+
   
 /*COMIENZO CSS Registro*/ 
 
